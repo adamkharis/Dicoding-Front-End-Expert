@@ -10,8 +10,7 @@
     "lint": "eslint ./src",
     "build-image": "node sharp.js",
     "e2e": "codeceptjs run --steps",
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "react-scripts build",
+    "start": "./node_modules/.bin/netlify-lambda serve src"
   },
   "keywords": [],
   "author": "",
