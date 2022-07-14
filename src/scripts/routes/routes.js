@@ -1,4 +1,4 @@
-import HomeRestaurant from '../views/pages/home-resto'
+import HomeRestaurant from '../views/pages/home-Resto'
 import Detail from '../views/pages/detail'
 import Like from '../views/pages/like'
 

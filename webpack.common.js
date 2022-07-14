@@ -30,16 +30,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: path.resolve(__dirname, './src/public/icons/icon.png'),
-      template: path.resolve(__dirname, './src/templates/index.html'),
       filename: 'index.html',
-      minify: {
-        collapseWhitespace: true,
-        removeComments: true,
-        removeRedundantAttributes: true,
-        removeScriptTypeAttributes: true,
-        removeStyleLinkTypeAttributes: true,
-        useShortDoctype: true,
+      template: path.resolve(__dirname, 'src/templates/index.html')
     }),
     new CopyWebpackPlugin({
       patterns: [

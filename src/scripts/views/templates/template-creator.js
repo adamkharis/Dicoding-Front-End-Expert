@@ -56,13 +56,13 @@ const createRestaurantItemTemplate = (restaurant) => `
   </div>
 `
 
-const createLikeRestaurantButtonTemplate = () => `
+const createLikeButtonTemplate = () => `
   <button aria-label="like this restaurant" id="likeButton" class="like">
     <ion-icon name="heart-outline"></ion-icon>
   </button>
 `
 
-const createUnlikeRestaurantButtonTemplate = () => `
+const createLikedButtonTemplate = () => `
   <button aria-label="unlike this restaurant" id="likeButton" class="like">
     <ion-icon name="heart"></ion-icon>
   </button>
@@ -71,6 +71,6 @@ const createUnlikeRestaurantButtonTemplate = () => `
 export {
   createRestaurantItemTemplate,
   createRestaurantDetailTemplate,
-  createLikeRestaurantButtonTemplate,
-  createUnlikeRestaurantButtonTemplate
+  createLikeButtonTemplate,
+  createLikedButtonTemplate
 }
